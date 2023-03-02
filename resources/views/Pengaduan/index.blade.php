@@ -380,7 +380,7 @@
                                     @endif
                                 </td>
                                 <td>
-                                    <a href="/pengaduan/edit/{{ $p->id_pengaduan }}" class="btn btn-warning">Edit</a>
+                                    <a href="/pengaduan/edit/{{ $p->id_pengaduan }}" class="btn btn-warning">Edit</a>&nbsp;&nbsp;
                                     <a href="/pengaduan/destroy/{{ $p->id_pengaduan }}" class="btn btn-danger">Hapus</a>
                                 </td>
                             </tr>
